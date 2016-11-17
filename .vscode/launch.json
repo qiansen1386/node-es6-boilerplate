@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to find out which attributes exist for node debugging
+    // Use hover for the description of the existing attributes
+    // For further information visit https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node2",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceRoot}/app/index.js",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "name": "Attach",
+            "type": "node2",
+            "request": "attach",
+            "port": 5858,
+            "restart": false
+        }
+    ]
+}
