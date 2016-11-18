@@ -12,12 +12,13 @@ Why "import" is not supportted by Nodejs? => Whenever u doubt the future, look f
 ## Development Environment
 
 Windows 10 64bit 
-Git bash
+Git bash / Bash On Windows
 VS code + ESLint extension
 Nodejs 6.9.1
 
 > NOTE: Register current npm bin folder into PATH before making use of tools like babel/eslint, 
-by executing `source npm-register.sh` in your git bash.
+by executing `source npm-register.sh` in your bash.
+If u are using BashOnWin then edit the `npm-register.sh` first according to instruction.
 
 ## Entries
 
