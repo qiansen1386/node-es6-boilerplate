@@ -8,8 +8,9 @@ root = true
 end_of_line = lf
 insert_final_newline = true
 
-# Indentation override for all JS under lib directory
-[app/**.js]
+# Indentation override for all JS under app/test directory
+# include other formats which mainly contains json
+[{app,tests}/**.{js,json},**rc]
 charset = utf-8
 indent_style = space
 indent_size = 2
