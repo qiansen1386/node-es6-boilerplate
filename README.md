@@ -53,6 +53,8 @@ SERVER_SECURE_PORT=443
 
 * `npm run start` launch node dev server.
 * `. killallnode.sh` kill all running node instances.
+* `. setup.sh` can help u copy & link original source from virtualbox shared folder to somewhere your prefer, 
+to allow u make full use of Linux-based "node_modules/"(Must edit before Use!)
 
 ## licensed
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/WTFPL_logo.svg/140px-WTFPL_logo.svg.png)
