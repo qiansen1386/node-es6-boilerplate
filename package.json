@@ -4,9 +4,11 @@
   "description": "A es6 express boilerplate",
   "main": "build/index.js",
   "scripts": {
-    "dev": "nodemon node_modules/babel-cli/bin/babel-node.js --debug -- app/index.js --debug",
+    "start": "nodemon node_modules/babel-cli/bin/babel-node.js --debug -- app/index.js --debug",
     "test": "mocha ./tests/",
-    "build": "babel -w app/ -d build/ -s"
+    "build": "babel app/ -d build/ -s",
+    "watch": "babel -w app/ -d build/ -s",
+    "install": "npm run build"
   },
   "keywords": [
     "es6",

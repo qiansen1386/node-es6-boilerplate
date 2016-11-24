@@ -51,7 +51,7 @@ SERVER_SECURE_PORT=443
 
 > See more @ [package.json](./package.json)
 
-* `npm run dev` launch node dev server.
+* `npm run start` launch node dev server.
 * `. killallnode.sh` kill all running node instances.
 
 ## licensed
