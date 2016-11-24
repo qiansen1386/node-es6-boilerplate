@@ -1,1 +1,11 @@
+# ignore bundles and build folders
+node_modules/*
+build/*
+# ignore environment param file but keep example file
 .env
+!.env.example
+#ignore backup file
+*.[bak]
+# ... except for those git files.
+!.gitignore
+!.gitkeep
