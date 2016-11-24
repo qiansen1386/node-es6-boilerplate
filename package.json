@@ -4,10 +4,10 @@
   "description": "A es6 express boilerplate",
   "main": "build/index.js",
   "scripts": {
-    "start": "nodemon node_modules/babel-cli/bin/babel-node.js --debug -- app/index.js --debug",
+    "start": "nodemon node_modules/babel-cli/bin/babel-node.js --debug -- src/index.js --debug",
     "test": "mocha ./tests/",
-    "build": "babel app/ -d build/ -s",
-    "watch": "babel -w app/ -d build/ -s",
+    "build": "babel src/ -d build/ -s",
+    "watch": "babel -w src/ -d build/ -s",
     "install": "npm run build"
   },
   "keywords": [
